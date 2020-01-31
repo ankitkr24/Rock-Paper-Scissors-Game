@@ -69,6 +69,13 @@ function rpsFrontEnd(yourImageChoice,botImageChoice,finalMessage){
 
  botDiv.innerHTML= "<img src='" + imageDatabase[botImageChoice]+"' height=150 width=150 style='box-shadow: 0px 10px 50px rgba(243,38,233,1);'>"
  document.getElementById('flex-box-rps-div').appendChild(botDiv);
+    
 
+
+}
+
+function playAgain()
+{
+    location.reload();
 
 }
